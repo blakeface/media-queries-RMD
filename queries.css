@@ -1,5 +1,5 @@
 body {
-  /*background-image: url('https://media.giphy.com/media/XifRMtou3cSvm/giphy.gif');*/
+  background-image: url('https://media.giphy.com/media/XifRMtou3cSvm/giphy.gif');
   margin: 0px;
   padding: 0px;
   border: 0px;
@@ -26,7 +26,6 @@ nav {
   margin: 0px;
   padding: 0px;
   border: 0px;
-  vertical-align: middle;
 }
 
 #rightHalf {
@@ -72,16 +71,119 @@ nav {
   color: black;
 }
 
+#icon {
+  display: none;
+}
+
 /* TABLET*/
 @media only screen and (max-width: 768px) {
   body {
-    background: rgb(90, 107, 74);
+    background-image: url('https://media0.giphy.com/media/I0zXHwh1T8Cl2/200.gif');
+  }
+  #leftHalf {
+    display: block;
+    float: left;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+  }
+
+  #large {
+    background: black;
+    color: white;
+    text-align: center;
+    height: 60px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    vertical-align: middle;
+  }
+
+  #rightHalf {
+    display: block;
+    float: left;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+  }
+
+  .small {
+    color: white;
+    text-align: center;
+    display: table;
+    table-layout: fixed;
+    width: 25%;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    float: left;
+    height: 30px;
+    vertical-align: middle;
+  }
+
+  #icon {
+    display: none;
   }
 }
 
 /* MOBILE */
 @media only screen and (max-width: 450px) {
   body {
-    background: rgb(153, 160, 230);
+    background-image: url('https://media2.giphy.com/media/l41m2RLpvmqybRdHq/200.gif');
+  }
+  
+  #leftHalf {
+    display: block;
+    float: left;
+    width: 80%;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+  }
+
+  #large {
+    background: black;
+    color: white;
+    text-align: center;
+    height: 60px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    vertical-align: middle;
+  }
+
+  #rightHalf {
+    display: block;
+    float: left;
+    width: 20%;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background: black;
+  }
+
+  .small {
+    display: none;
+  }
+
+  #icon {
+    display: block;
+    width: 20%;
+    height: 60px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    float: left;
+  }
+  img {
+    height: 60px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
