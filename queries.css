@@ -1,0 +1,87 @@
+body {
+  /*background-image: url('https://media.giphy.com/media/XifRMtou3cSvm/giphy.gif');*/
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+nav {
+  display: block;
+}
+
+#leftHalf {
+  display: block;
+  float: left;
+  width: 50%;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+#large {
+  background: black;
+  color: white;
+  text-align: center;
+  height: 60px;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  vertical-align: middle;
+}
+
+#rightHalf {
+  display: block;
+  float: left;
+  width: 50%;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+.small {
+  color: white;
+  text-align: center;
+  display: table;
+  table-layout: fixed;
+  width: 50%;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  float: left;
+  height: 30px;
+  vertical-align: middle;
+}
+
+#grey {
+  background: grey;
+  color: black;
+}
+
+#yellow {
+  background: yellow;
+  color: black;
+}
+
+#red {
+  background: red;
+  color: black;
+}
+
+#green {
+  background: green;
+  color: black;
+}
+
+/* TABLET*/
+@media only screen and (max-width: 768px) {
+  body {
+    background: rgb(90, 107, 74);
+  }
+}
+
+/* MOBILE */
+@media only screen and (max-width: 450px) {
+  body {
+    background: rgb(153, 160, 230);
+  }
+}
